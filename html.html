@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+
+<body>
+    <div class="js1">
+        <h1>introduksi JavaScript</h1>
+        <!-- mengganti text 1 menjadi text 2 -->
+        <div class="latihan1">
+            <h2>Mengubah text</h2>
+            <p id="demo1">JavaScript bisa mengubah konten html</p>
+            <button type="button" onclick='document.getElementById("demo1").innerHTML = "Halo JavaScript"'>klik
+                saya</button>
+        </div>
+
+        <!-- memperbesar text -->
+        <div class="latihan2">
+            <h2>Memperbesar text</h2>
+            <p id="demo2">JavaScript bisa mengubah konten html</p>
+            <button type="button" onclick="document.getElementById('demo2').style.fontSize = '50px'">klik
+                saya</button>
+        </div>
+
+        <div class="latihan3">
+            <h2>Menghilangkan teks</h2>
+            <p id="demo3">Saya Hadir</p>
+            <button type="button" onclick="document.getElementById('demo3').style.display ='none'">Hilang</button>
+            <!-- <button type="button" onclick="document.getElementById('demo3').style.display =''">Hadir</button> -->
+        </div>
+
+        <div class="latihan4">
+            <h2>menampilkan text tersembunyi</h2>
+            <p>JavaScript bisa mengubah konten html</p>
+            <p id="demo4" style="display: none;">Halo jawa skrip</p>
+            <button type="button" onclick="document.getElementById('demo4').style.display = 'block'">klik saya</button>
+        </div> 
+
+        <div class="latihan5">
+            <!-- <h2>menampilkan & menghilangkan teks</h2>
+            <p id="ada" style="display:none;">saya hadir</p>
+            <p id="hilang">saya hilang</p>
+            <button type="button" onclick="document.getElementById('ada').style.display = 'block'">ada</button>
+            <button type="button" onclick="document.getElementById('hilang').style.display = 'none'">hilang</button> -->
+        </div>
+    </div>
+
+    <div class="js2">
+        <div class="latihan1">
+            <!-- coba external layout -->
+            <h2>mengganti teks</h2>
+            <p id="demo5">ini teks ke</p>
+            <button type="button" onclick="demo5()">tekan saya</button>
+        </div>
+        <div class="latihan2">
+            <h2>fungsi matematika</h2>
+            <p id="demo6">5 + 6</p>
+            <button type="button" onclick="demo6()">hasil</button>
+        </div>
+        <div class="latihan3">
+            <h2>alert</h2>
+            
+        </div>
+    </div>
+
+
+</body>
+
+
+
+</html>
